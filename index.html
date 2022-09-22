@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>뮤직 플레이어</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <span class="material-symbols-outlined btnTurn">
+      autorenew
+      </span>
+    <div class="container">
+      <div class="front">
+        <div class="player">
+          <div class="header">
+            <p class="pointer"></p>
+            <p class="info"></p>
+          </div>
+          <div class="musicViewer">
+            <div class="musicBox"></div>
+          </div>
+          <div class="btnBox">
+            <span class="material-symbols-outlined">first_page</span>
+            <span class="material-symbols-outlined">navigate_before</span>
+            <span class="material-symbols-outlined">play_arrow</span>
+            <span class="material-symbols-outlined">navigate_next</span>
+            <span class="material-symbols-outlined">last_page</span>
+          </div>
+          <div class="playTime">
+            <div class="timeInfo">
+              <p class="curTime"></p>
+              <p class="maxTime"></p>
+            </div>
+            <div class="cur"></div>
+            <div class="max"></div>
+          </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="musicInfo">
+          <p>아이콘을 클릭하시면 이동합니다</p>
+          <div class="musicAbout"></div>
+        </div>
+        <div class="musicList"></div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
